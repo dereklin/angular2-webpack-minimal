@@ -25,7 +25,7 @@ module.exports = {
   },
   devServer: {
     port: 80,
-    hot: true,
+    hot: true
   },
   plugins: [
     new HtmlWebpackPlugin({
@@ -35,4 +35,4 @@ module.exports = {
       title: 'Angular 2 sample'
     })
   ]
-}
+};
