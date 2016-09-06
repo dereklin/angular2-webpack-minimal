@@ -4,10 +4,11 @@
   "description": "Angular 2 minimal starter Webpack",
   "scripts": {
     "postinstall": "npm run typings install",
-    "build": "npm run webpack",
+    "build": "npm run webpack -p",
     "start": "npm run webpack-dev-server",
     "typings": "typings",
-    "webpack-dev-server": "webpack-dev-server"
+    "webpack-dev-server": "webpack-dev-server",
+    "webpack": "webpack"
   },
   "license": "MIT",
   "dependencies": {
