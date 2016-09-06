@@ -4,11 +4,11 @@ var HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
   entry: {
     "vendor": "./src/vendor",
-    "app": "./src/boot"
+    "app": "./src/main"
   },
   output: {
     path: __dirname,
-    filename: "./dist/[name].bundle.js"
+    filename: "dist/[name].bundle.js"
   },
   resolve: {
     extensions: ['', '.ts', '.js']
